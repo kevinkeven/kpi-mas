@@ -1,0 +1,13 @@
+{% load i18n %}
+{% trans "Thank you for registering with DIGIKYAR!" %}
+
+{% trans "After you confirm your account, you will have access to DIGIKYAR services. Please go to the following URL to complete the activation of your new account." %}
+
+{{ kpi_protocol }}://{{ site.domain }}/accounts/activate/{{activation_key}}
+
+{% trans "Your username is: " %} {{ user }} 
+
+{% trans "For more information on how to get involved, please visit https://www.digikyar.org/. You may also ask questions to the community (preferred) or directly to us." %}
+
+{% trans "Best," %}
+DigikYar

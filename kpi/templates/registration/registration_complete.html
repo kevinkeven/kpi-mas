@@ -1,0 +1,17 @@
+{% extends "registration.html" %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+<form action="." method="post" class="registration registration--complete shadow">
+  <div class="registration--logo">
+    <a href="/">{% block logo %}{{ block.super }}{% endblock %}</a>
+    <h1>{% trans "Account has been successfully created!" %}</h1>
+  </div>
+  <p class="registration__message registration__message--complete">
+    {% trans "Thank you for registering for a DIGIKYAR account." %}
+  </p>
+  <p class="registration__message registration__message--complete">
+    {% trans "Please activate your account by clicking the activation link in the email that was just provided to you." %}
+  </p>
+</form>
+{% endblock %}

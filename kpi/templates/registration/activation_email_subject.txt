@@ -1,0 +1,2 @@
+{% load i18n %}
+{% trans "To continue using DIGIKYAR, you must first activate your account." %}
