@@ -379,7 +379,7 @@ export class SupportHelpBubble extends HelpBubble {
               href={envStore.data.support_url}
               onClick={this.close.bind(this)}
             >
-              <i className='k-icon k-icon-help-articles'/>
+              
               <header>{t('DigikYar Help Center')}</header>
               <p>{t('A vast collection of user support articles and tutorials related to KoBo')}</p>
             </bem.HelpBubble__rowAnchor>
@@ -393,9 +393,9 @@ export class SupportHelpBubble extends HelpBubble {
               href={envStore.data.community_url}
               onClick={this.close.bind(this)}
             >
-              <i className='k-icon k-icon-forum'/>
+              
               <header>{t('DigikYar Community Forum')}</header>
-              <p>{t('Post your questions to get answers from experienced KoBo users around the world')}</p>
+              <p>{t('Post your questions to get answers from experienced digikyar users around the world')}</p>
             </bem.HelpBubble__rowAnchor>
           }
 
